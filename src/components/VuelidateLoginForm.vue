@@ -2,7 +2,7 @@
   <v-row>
     <v-card class="d-flex flex-wrap align-center justify-center" min-height="250" max-width="450px">
       <v-card-title>
-        Login
+        Vuelidate Login
       </v-card-title>
       <v-card-text>
 
@@ -67,7 +67,6 @@ export default {
   },
   methods: {
     onSubmit(){
-      console.log('asdad')
       this.$router.push('products')
     }
   }

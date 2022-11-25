@@ -1,10 +1,10 @@
 <script setup>
-import LoginForm from "@/components/LoginForm.vue";
+import VuelidateLoginForm from "@/components/VuelidateLoginForm.vue";
 </script>
 
 <template>
   <div class="login-page">
-    <LoginForm />
+    <VuelidateLoginForm />
   </div>
 </template>
 

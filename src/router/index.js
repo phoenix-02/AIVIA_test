@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import LoginView from "../views/LoginView.vue";
+import VeeLoginForm from "../views/VeeLoginView.vue";
+// import VuelidateLoginForm from "../views/VuelidateLoginView.vue";
 import Products from "../views/ProductsView.vue";
 
 Vue.use(VueRouter);
@@ -11,13 +12,18 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
-      redirect: "/login"
+      redirect: "/vee-login"
     },
     {
-      path: "/login",
-      name: "login",
-      component: LoginView,
+      path: "/vee-login",
+      name: "vee-login",
+      component: VeeLoginForm,
     },
+    // {
+    //   path: "/vuelidate-login",
+    //   name: "vuelidate-login",
+    //   component: VuelidateLoginForm,
+    // },
     {
       path: "/products",
       name: "products",
